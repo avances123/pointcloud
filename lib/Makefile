@@ -22,7 +22,7 @@ OBJS = \
 all: $(LIB_A)
 	$(MAKE) -C cunit $@
 
-$(LIB_A): $(OBJS)
+$(LIB_A): $(OBJS) 
 	ar rs $@ $^
 
 clean:

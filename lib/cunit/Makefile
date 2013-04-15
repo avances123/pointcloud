@@ -22,7 +22,7 @@ check: $(EXE)
 
 # Build the main unit test executable
 $(EXE): $(OBJS) ../$(LIB_A)
-	$(CC) $(LDFLAGS) -o $@ $^
+	$(CC) -o $@ $^ $(LDFLAGS)
 
 ../$(LIB_A):
 	$(MAKE) -C .. $(LIB_A)

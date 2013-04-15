@@ -10,6 +10,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "CUnit/Basic.h"
+#include "CUnit/TestDB.h"
 #include "cu_tester.h"
 
 /* ADD YOUR SUITE HERE (1 of 2) */

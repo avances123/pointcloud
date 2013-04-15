@@ -21,6 +21,7 @@
 #include <stdarg.h>
 #include <assert.h>
 #include <math.h>
+#include <values.h>
 #include "pc_api_internal.h"
 #include "zlib.h"
 
